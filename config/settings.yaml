@@ -1,0 +1,29 @@
+models:
+  groq: 
+    enabled: true
+    model_name: "openai/gpt-oss-120b" 
+    endpoint: GROQ_BASE_URL
+    api_key: GROQ_API_KEY
+  openai:
+    enabled: true
+    model_name: "gpt-4o-mini"
+    api_key: OPENAI_API_KEY
+
+risk:
+  risk_per_trade_pct: 0.75
+  max_daily_loss_pct: 5.0
+  max_open_trades: 2
+
+trade:
+  symbol: "XAUUSDm"
+  lot_min: 0.01
+  spread_limit_pips: 2.0
+
+thresholds:
+  groq_high_confidence: 0.82
+  groq_low_confidence: 0.55
+
+mt5_login:
+  login: MT5_LOGIN
+  password: MT5_PASSWORD
+  server: MT5_SERVER
