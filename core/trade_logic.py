@@ -206,6 +206,7 @@ def detect_trade(df, trend_data):
     if trend == "bullish" and fibs["78.6"] <= current <= fibs["38.2"]:
         
         if not pullback_ended(df, "buy", atr_val):
+                print("Pullback not finished")
                 return None   # ← pullback not finished
         
         # Check strong bullish candle confirmation
@@ -215,11 +216,13 @@ def detect_trade(df, trend_data):
 
         # must be > 40% ATR
         if bull_body < 0.4 * atr_val:
+            print("Bullish body too small")
             return None
 
         # must close above previous candle high
         prev_high = df['high'].iloc[-2]
         if last_close <= prev_high:
+            print("Did not close above previous high")
             return None
         
         swing_low = df['low'].rolling(10).min().iloc[-1]
@@ -246,17 +249,20 @@ def detect_trade(df, trend_data):
     if trend == "bearish" and fibs["38.2"] >= current >= fibs["78.6"]:
 
         if not pullback_ended(df, "sell", atr_val):
-                        return None   # ← pullback not finished
+            print("Pullback not finished")
+            return None   # ← pullback not finished
         
         last_close = df['close'].iloc[-1]
         last_open = df['open'].iloc[-1]
         bear_body = last_open - last_close
 
         if bear_body < 0.4 * atr_val:
+            print("Bearish body too small")
             return None
 
         prev_low = df['low'].iloc[-2]
         if last_close >= prev_low:
+            print("Did not close below previous low")
             return None
         
         swing_high = df['high'].rolling(10).max().iloc[-1]

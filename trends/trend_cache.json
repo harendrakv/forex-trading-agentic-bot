@@ -1,0 +1,222 @@
+{
+  "H4_2025-12-03 04:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows a bearish LL\u2011LH pattern and momentum is strongly negative, indicating a downtrend. However, the larger average lower wicks suggest opposing bullish pressure, and volatility is modest, which together weaken the bearish signal."
+  },
+  "H1_2025-12-03 05:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows HH\u2011HL bullish pattern, but volatility is low (ATR 0.38%) and wick pressure is nearly balanced, indicating limited conviction despite positive 10\u2011bar momentum."
+  },
+  "H1_2025-12-03 06:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Market structure shows bullish HH\u2011HL pattern, but 10\u2011bar momentum is negative and upper/lower wick pressure is nearly equal, indicating opposing forces and a lack of strong bullish momentum."
+  },
+  "H1_2025-12-03 07:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows HH\u2011HL bullish pattern and momentum is positive, but low ATR% and nearly equal upper/lower wick pressure indicate limited strength, pointing to a weak bullish trend."
+  },
+  "H4_2025-12-03 08:00": {
+    "trend": "strong_bearish_trend",
+    "confidence": 85,
+    "reason": "Market structure shows LL\u2011LH bearish pattern, momentum is strongly negative (-21.17), lower wick pressure exceeds upper wick, and volatility remains steady, all confirming a strong bearish bias."
+  },
+  "H1_2025-12-03 08:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Market structure shows HH\u2011HL bullish pattern, but momentum is negative and upper/lower wick pressure is nearly equal, indicating opposing forces and a weak bullish bias."
+  },
+  "H1_2025-12-03 09:00": {
+    "trend": "range",
+    "confidence": 70,
+    "reason": "Market structure is mixed, volatility is low, wick pressure is balanced with a slight bearish tilt, and momentum is modestly negative, indicating no clear strong trend."
+  },
+  "H1_2025-12-03 10:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows bearish LL\u2011LH pattern, momentum is strongly negative (-12.25), but lower wicks are slightly larger than upper wicks, indicating some buying pressure that tempers the bearishness."
+  },
+  "H1_2025-12-03 11:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 75,
+    "reason": "Market structure is bearish (LL\u2011LH), momentum is strongly negative, but volatility is low and not rising, so the bearish bias is present but not reinforced to a strong level."
+  },
+  "H4_2025-12-03 12:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows LL\u2011LH bearish pattern and momentum is negative. Lower wicks are longer, indicating downward pressure, but volatility is low and upper wicks are still present, tempering the strength of the move."
+  },
+  "H1_2025-12-03 12:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 78,
+    "reason": "Market structure shows a bearish LL\u2011LH pattern, momentum is strongly negative, and lower wicks are slightly longer, indicating downward pressure. Low ATR suggests limited volatility, so the bearish bias is present but not strongly reinforced."
+  },
+  "H1_2025-12-03 13:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows bearish LL\u2011LH pattern, momentum is negative (-8.91), lower wick pressure exceeds upper wick, and volatility is low, indicating bearish bias but not a strong, high\u2011volatility move."
+  },
+  "H1_2025-12-03 14:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows a bearish LL\u2011LH pattern, lower wicks are larger than upper wicks indicating downward pressure, and volatility is low. Momentum is modestly positive, which tempers the bearish bias, leading to a weak bearish classification."
+  },
+  "H1_2025-12-03 15:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Market structure shows a bearish LL\u2011LH pattern, but momentum is modest, volatility is low, and lower wicks dominate (indicating buying pressure). The opposing wick pressure weakens the bearish bias, leading to a weak bearish classification."
+  },
+  "H4_2025-12-04 00:00": {
+    "trend": "strong_bullish_trend",
+    "confidence": 84,
+    "reason": "Market structure shows HH\u2011HL pattern, momentum is strongly positive (25.9), volatility is modest but rising, and lower wicks dominate indicating bullish pressure."
+  },
+  "H1_2025-12-04 03:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Market structure shows bullish HH\u2011HL pattern, but 10\u2011bar momentum is negative and volatility is low, with nearly balanced wick pressure, indicating the bullish bias is weak."
+  },
+  "H4_2025-12-04 04:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 62,
+    "reason": "Market structure shows HH\u2011HL bullish pattern, but 10\u2011bar momentum is negative and lower wick pressure exceeds upper wick, indicating opposing forces. Low volatility further weakens the bullish case, leading to a weak bullish classification."
+  },
+  "H1_2025-12-04 04:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 62,
+    "reason": "Market structure shows HH\u2011HL bullish pattern, but 10\u2011bar momentum is negative and lower wick pressure slightly exceeds upper wick, indicating bearish pressure. Low volatility and balanced wicks further weaken the bullish bias, leading to a weak bullish classification."
+  },
+  "H1_2025-12-04 05:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Negative 10\u2011bar momentum with mixed structure and low volatility indicates a weak bearish bias."
+  },
+  "H1_2025-12-04 06:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Mixed structure with negative momentum and low volatility indicates a weak bearish bias"
+  },
+  "H4_2025-12-04 08:00": {
+    "trend": "range",
+    "confidence": 70,
+    "reason": "Structure shows alternating highs/lows, low volatility and slight bearish momentum with lower\u2011wick pressure."
+  },
+  "H1_2025-12-04 08:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 65,
+    "reason": "Negative 10\u2011bar momentum and slight upper\u2011wick dominance amid mixed structure and low volatility point to a weak bearish bias"
+  },
+  "H1_2025-12-04 09:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Negative momentum and slight lower\u2011wick dominance amid mixed structure indicate a weak bearish bias"
+  },
+  "H1_2025-12-04 10:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Negative momentum and modest lower\u2011wick pressure amid mixed structure suggest a weak bearish bias"
+  },
+  "H1_2025-12-04 11:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Bullish HH\u2011HL structure but negative momentum, low volatility and slightly stronger lower wicks weaken the trend"
+  },
+  "H4_2025-12-04 12:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 78,
+    "reason": "Bearish LL\u2011LH structure, negative momentum and lower\u2011wick dominance with low volatility indicate a weakening downtrend."
+  },
+  "H1_2025-12-04 12:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Bullish HH\u2011HL structure and positive momentum, but low volatility and balanced wick pressure weaken the trend"
+  },
+  "H1_2025-12-04 13:00": {
+    "trend": "range",
+    "confidence": 82,
+    "reason": "Mixed swing structure, low volatility and near\u2011equal wick pressure indicate a tight consolidation"
+  },
+  "H1_2025-12-04 14:00": {
+    "trend": "range",
+    "confidence": 85,
+    "reason": "Alternating swing highs/lows, low ATR, and balanced wick pressure indicate a tight consolidation range"
+  },
+  "H1_2025-12-04 15:00": {
+    "trend": "range",
+    "confidence": 80,
+    "reason": "Market shows range structure with low volatility and balanced wicks despite slight bullish momentum."
+  },
+  "H4_2025-12-04 16:00": {
+    "trend": "weak_bearish_trend",
+    "confidence": 70,
+    "reason": "Bearish LL\u2011LH structure with modest momentum and larger lower wicks indicating weak downtrend"
+  },
+  "H1_2025-12-04 16:00": {
+    "trend": "strong_bullish_trend",
+    "confidence": 82,
+    "reason": "Higher highs/lows and strong positive momentum indicate a robust bullish move"
+  },
+  "H1_2025-12-04 17:00": {
+    "trend": "strong_bullish_trend",
+    "confidence": 78,
+    "reason": "Higher highs/lows and positive momentum indicate a strong bullish bias"
+  },
+  "H4_2025-12-05 04:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Mixed structure and low volatility with bullish momentum but stronger lower\u2011wick pressure indicate only a weak bullish bias"
+  },
+  "H1_2025-12-05 06:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Mixed higher highs/lower lows with strong bullish momentum and dominant bullish bodies, but occasional lower highs and slight lower\u2011wick pressure weaken the trend strength."
+  },
+  "H1_2025-12-05 07:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Positive momentum with modest upmove but mixed structure and low volatility indicate a weak bullish bias"
+  },
+  "H4_2025-12-05 08:00": {
+    "trend": "strong_bullish_trend",
+    "confidence": 85,
+    "reason": "Higher highs/lows with strong positive momentum and bullish lower\u2011wick pressure"
+  },
+  "H1_2025-12-05 08:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 65,
+    "reason": "Mixed structure with modest bullish momentum, low volatility and slight lower\u2011wick pressure indicates a weak uptrend"
+  },
+  "H1_2025-12-05 09:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Positive momentum and rising swing lows indicate bullishness, but mixed structure and balanced wick pressure limit strength"
+  },
+  "H1_2025-12-05 10:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Higher highs/lows and positive momentum indicate bullish bias, but low volatility and stronger lower wicks weaken the trend"
+  },
+  "H4_2025-12-05 12:00": {
+    "trend": "strong_bullish_trend",
+    "confidence": 85,
+    "reason": "Bullish HH\u2011HL structure, strong positive momentum and larger lower wicks indicate strong bullish pressure"
+  },
+  "H1_2025-12-05 12:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Higher highs and higher lows with positive momentum indicate bullish bias, but range structure and slight lower\u2011wick dominance keep strength weak"
+  },
+  "H1_2025-12-05 13:00": {
+    "trend": "weak_bullish_trend",
+    "confidence": 70,
+    "reason": "Positive momentum and higher highs/lows suggest bullish bias, but low volatility and slight lower\u2011wick dominance weaken strength"
+  },
+  "H1_2025-12-05 14:00": {
+    "trend": "range",
+    "confidence": 0,
+    "reason": "Fallback due to error: Connection error."
+  }
+}

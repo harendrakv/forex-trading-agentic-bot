@@ -2,6 +2,7 @@ import json
 from groq import Groq
 from openai import OpenAI
 from config.config_loader import load_config
+from templates.trend_detection_prompt import TREND_DETECTION_PROMPT
 
 cfg = load_config("config/settings.yaml")
 
@@ -124,39 +125,13 @@ def extract_structure_context(df, lookback=40):
     }
 
 
-TREND_AGENT_SYSTEM_PROMPT = """
-You are a professional price-action trader specializing in trend detection
-based on pure market structure (HH/HL/LH/LL), momentum, volatility, and wick pressure.
-
-Your task:
-Given the processed candle context (last 40–60 bars), classify the trend as:
-
-1. strong_bullish_trend
-2. weak_bullish_trend
-3. range
-4. weak_bearish_trend
-5. strong_bearish_trend
-
-Rules:
-- HH + HL → bullish. If strong momentum → strong_bullish_trend.
-- LH + LL → bearish. If strong momentum → strong_bearish_trend.
-- Increasing volatility → strengthens trend.
-- Opposing wicks → weak trend.
-- Mixed structure → range.
-
-Return ONLY this JSON:
-{
-  "trend": "string",
-  "confidence": 0-100,
-  "reason": "short explanation"
-}
-"""
-
-
 class TrendDetectorAgent:
+
     def __init__(self):
+        
         self.client = OpenAI(api_key=cfg['models']['groq']['api_key'], base_url=cfg['models']['groq']['endpoint'])
         self.model_name = cfg['models']['groq']['model_name']
+
     def build_agent_prompt(self, df):
         """
         Convert candles + structure into compact input for the LLM.
@@ -197,7 +172,7 @@ class TrendDetectorAgent:
             response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=[
-                    {"role": "system", "content": TREND_AGENT_SYSTEM_PROMPT},
+                    {"role": "system", "content": TREND_DETECTION_PROMPT},
                     {"role": "user", "content": user_prompt}
                 ],
                 temperature=0.15,
